@@ -2,7 +2,7 @@ export const manifest = {
   id: 'notification-filter',
   name: 'Notification filter',
   version: '1.0',
-  author: 'Backtalk',
+  author: 'kalahami',
   homepage: 'https://github.com/kalahami/backtalk-scripts/blob/main/notification-filter.js',
   minApiVersion: 1,
   testedApiVersion: 3,
