@@ -25,3 +25,18 @@ Then choose a script from the list to install it.
 Muted notifications still appear in the notification shade. Backtalk just doesn't read them.
 
 It asks for the `notifications`, `speech`, `dialogs` and `input` permissions.
+
+### TeamTalk Plus helper
+
+`teamtalk-plus.js` helps with [TeamTalk Plus](https://github.com/JoaoDEVWHADS/TeamTalkPlus).
+
+While TeamTalk Plus is open, the Backtalk menu has:
+
+*   **Read latest TeamTalk message**, which says who sent the newest message on screen, what it says, and when. Open a chat tab first.
+*   **Mute or unmute TeamTalk speaker**.
+
+The reading controls have **TeamTalk speaker volume**: swipe up for louder and down for quieter. Mute and volume work on TeamTalk Plus's main screen. You can also give each of these a gesture or keys on the script's page, under **Commands**.
+
+In every app, it makes TeamTalk Plus notifications quieter. By default a private message is read as "TeamTalk message from Bob". In the script's settings, you can have private messages read in full or not at all, and turn off other TeamTalk Plus notifications, such as the server and channel you're in.
+
+It recognizes private messages only when TeamTalk Plus is in English. It asks for the `screen`, `actions`, `speech`, `input` and `notifications` permissions.
